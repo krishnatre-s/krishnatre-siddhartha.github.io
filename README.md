@@ -1,2 +1,2 @@
-# krishnatre-siddhartha.github.io
+# Epidemic Calculator / COVDID-19
  
