@@ -22756,7 +22756,7 @@
     			link = element("link");
     			t0 = space();
     			h2 = element("h2");
-    			h2.textContent = "Epidemic Calculator 👇";
+    			h2.textContent = "Epidemic Calculator ↓↓";
     			t2 = space();
     			div75 = element("div");
     			div50 = element("div");
