@@ -23497,7 +23497,7 @@
     			t412 = text(" and ");
     			a23 = element("a");
     			a23.textContent = "Ludwig Schubert";
-    			t414 = text(" wonderful feedback. Charlie Huang for context and discussion. <b> Gabriel Goh for everything.<b>");
+    			t414 = text(" wonderful feedback. Charlie Huang for context and discussion. Gabriel Goh for everything.");
     			t415 = space();
     			div122 = element("div");
     			div121 = element("div");
