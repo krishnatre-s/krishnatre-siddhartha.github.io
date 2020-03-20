@@ -3874,15 +3874,15 @@
 
     	const click_handler_2 = ({ i }) => {$$invalidate('lock', lock = !lock); $$invalidate('active_lock', active_lock = indexToTime(i)); };
 
-    	function func({ i, j }) { 
-    	                        var z = yScale( sum(y[i].slice(0,j+1), checked) ); 
+    	function func({ i, j }) {
+    	                        var z = yScale( sum(y[i].slice(0,j+1), checked) );
     	                        return Math.min(isNaN(z) ? 0: z, height - padding.top)
     	                      }
 
     	function func_1({ i, j }) {
     	                  var top = yScaleL( sum(y[i].slice(0,j+1),checked) + 0.0001 );
     	                  var btm = yScaleL( sum(y[i].slice(0,j),checked) + 0.0001);
-    	                  var z = top - btm; 
+    	                  var z = top - btm;
     	                  if (z + yScale( sum(y[i].slice(0,j+1), checked) ) > height - padding.top) {
     	                    return top
     	                  } else {
@@ -23192,7 +23192,7 @@
     			div118 = element("div");
     			t234 = space();
     			p0 = element("p");
-    			p0.textContent = "At the time of writing, the coronavirus disease of 2019 remains a global health crisis of grave and uncertain magnitude. To the non-expert (such as myself), contextualizing the numbers, forecasts and epidemiological parameters described in the media and literature can be challenging. I created this calculator as an attempt to address this gap in understanding.";
+    			p0.textContent = "At the time of writing, the coronavirus disease of 2019 remains a global health crisis of grave and uncertain magnitude. To the non-expert (such as myself), contextualizing the numbers, forecasts and epidemiological parameters described in the media and literature can be challenging. This is an attempt to address this gap in understanding.";
     			t236 = space();
     			p1 = element("p");
     			t237 = text("This calculator implements a classical infectious disease model — ");
@@ -25658,7 +25658,7 @@
     }
 
     function instance$3($$self, $$props, $$invalidate) {
-    	
+
 
       var sum = function(arr, bools){
         var x = 0;
@@ -25687,7 +25687,7 @@
         for (var k=[],ki=0; ki<m.length; ki++) {
           var _y=y.slice(), dt=ki?((m[ki-1][0])*h):0;
           for (var l=0; l<_y.length; l++) for (var j=1; j<=ki; j++) _y[l]=_y[l]+h*(m[ki-1][j])*(k[ki-1][l]);
-          k[ki]=f(t+dt,_y,dt); 
+          k[ki]=f(t+dt,_y,dt);
         }
         for (var r=y.slice(),l=0; l<_y.length; l++) for (var j=0; j<k.length; j++) r[l]=r[l]+h*(k[j][l])*(m[ki-1][j]);
         return r;
@@ -25707,17 +25707,17 @@
           if (t > InterventionTime && t < InterventionTime + duration){
             var beta = (InterventionAmt)*R0/(D_infectious);
           } else if (t > InterventionTime + duration) {
-            var beta = 0.5*R0/(D_infectious);        
+            var beta = 0.5*R0/(D_infectious);
           } else {
             var beta = R0/(D_infectious);
           }
           var a     = 1/D_incbation;
           var gamma = 1/D_infectious;
-          
+
           var S        = x[0]; // Susectable
           var E        = x[1]; // Exposed
-          var I        = x[2]; // Infectious 
-          var Mild     = x[3]; // Recovering (Mild)     
+          var I        = x[2]; // Infectious
+          var Mild     = x[3]; // Recovering (Mild)
           var Severe   = x[4]; // Recovering (Severe at home)
           var Severe_H = x[5]; // Recovering (Severe in hospital)
           var Fatal    = x[6]; // Recovering (Fatal)
@@ -25750,7 +25750,7 @@
         var P  = [];
         var TI = [];
         var Iters = [];
-        while (steps--) { 
+        while (steps--) {
           if ((steps+1) % (sample_step) == 0) {
                 //    Dead   Hospital          Recovered        Infected   Exposed
             P.push([ N*v[9], N*(v[5]+v[6]),  N*(v[7] + v[8]), N*v[2],    N*v[1] ]);
@@ -25759,11 +25759,11 @@
             // console.log((v[0] + v[1] + v[2] + v[3] + v[4] + v[5] + v[6] + v[7] + v[8] + v[9]))
             // console.log(v[0] , v[1] , v[2] , v[3] , v[4] , v[5] , v[6] , v[7] , v[8] , v[9])
           }
-          v =integrate(method,f,v,t,dt); 
+          v =integrate(method,f,v,t,dt);
           t+=dt;
         }
-        return {"P": P, 
-                "deaths": N*v[6], 
+        return {"P": P,
+                "deaths": N*v[6],
                 "total": 1-v[0],
                 "total_infected": TI,
                 "Iters":Iters,
@@ -25783,7 +25783,7 @@
         var Pmaxstart = 0;
 
         var dragstarted = function (d) {
-          dragstarty = event.y;  
+          dragstarty = event.y;
           Pmaxstart  = Pmax;
         };
 
@@ -25817,7 +25817,7 @@
         var InterventionTimeStart = 0;
 
         var dragstarted = function (d) {
-          dragstarty = event.x;  
+          dragstarty = event.x;
           InterventionTimeStart = InterventionTime;
           $$invalidate('Plock', Plock = Pmax);
           $$invalidate('lock', lock = true);
@@ -25842,7 +25842,7 @@
         var durationStart = 0;
 
         var dragstarted = function (d) {
-          dragstarty = event.x;  
+          dragstarty = event.x;
           durationStart = duration;
           $$invalidate('Plock', Plock = Pmax);
           $$invalidate('lock', lock = true);
