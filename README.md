@@ -3,9 +3,4 @@
 <br> <br>
 <a href="https://www.linkedin.com/in/krishnatre-siddhartha/">LinkedIn</a> | <a href="https://twitter.com/krishnatre_sid">Twitter</a>
 
-<iframe src="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" frameborder="0"
-    marginheight="0"
-    marginwidth="0"
-    width="100%"
-    height="100%"
-    scrolling="auto"></iframe>
+<iframe style="width:100%"; width="560" height="380" src="https://coronavirus.app/map?embed=true" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
