@@ -24396,10 +24396,10 @@
     			add_location(a17, file$3, 1113, 256, 43058);
     			attr_dev(p4, "class", "center svelte-1vzb36m");
     			add_location(p4, file$3, 1112, 0, 42783);
-    			attr_dev(a18, "href", "https://twitter.com/gabeeegoooh");
+    			attr_dev(a18, "href", "https://twitter.com/krishnatre_sid");
     			attr_dev(a18, "class", "svelte-1vzb36m");
     			add_location(a18, file$3, 1117, 22, 43238);
-    			attr_dev(a19, "href", "mailto:izmegabe@gmail.com");
+    			attr_dev(a19, "href", "mailto:s14a@pm.me");
     			attr_dev(a19, "class", "svelte-1vzb36m");
     			add_location(a19, file$3, 1117, 85, 43301);
     			attr_dev(p5, "class", "center svelte-1vzb36m");
