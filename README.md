@@ -3,11 +3,5 @@
 <br> <br>
 <a href="https://www.linkedin.com/in/krishnatre-siddhartha/">LinkedIn</a> | <a href="https://twitter.com/krishnatre_sid">Twitter</a>
 
-<iframe src="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" frameborder="0"
-    marginheight="0"
-    marginwidth="0"
-    width="100%"
-    height="100%"
-    scrolling="auto">
-
-</iframe>
+<iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+src="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"></iframe>
