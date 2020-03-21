@@ -6,7 +6,7 @@
 # Important Resources on COVID19
 
 <a href="https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf">
-Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19)</a>
+Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19)</a> >>
 Data from 55,000 cases in China also show other symptoms can include:
  - fatigue, in 38% of cases
  - producing sputum or phlegm, 33%
