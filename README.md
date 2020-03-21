@@ -14,3 +14,5 @@ Data from 55,000 cases in China also show other symptoms can include:
  - shortness of breath, 19%
  - sore throat, 14%
  - headache, 14%.
+
+<img src="https://pbs.twimg.com/media/ES_v3sMUEAA4uKk?format=jpg&name=4096x4096">
