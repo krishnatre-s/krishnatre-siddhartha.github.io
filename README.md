@@ -19,7 +19,9 @@ Data from 55,000 cases in China also show other symptoms can include:
  - sore throat, 14%
  - headache, 14%.
 
-# Pan India Lockdown declared on March 24, 2020 at 8PM Video Address by Prime Minister Narendra Modi
+# Pan India Lockdown declared on March 24, 2020 at 8PM Video Address by Prime Minister Narendra Modi, effective from midnight
+ - Essential services to remain available
+ - Call your nearest medic/ helpline if you develop any symptoms
 
 <iframe src="https://www.thequint.com/quintlab/novel-coronavirus-covid-19-outbreak-live-tracker/widget.html" width="720"></iframe>
 
